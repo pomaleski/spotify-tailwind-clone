@@ -1,6 +1,7 @@
 import { LuLibrary } from 'react-icons/lu'
 import { SideBar } from './Sidebar'
 import LibraryItem from './LibraryItem'
+import LibrarySearch from './LibrarySearch'
 
 export default function Library() {
   return (
@@ -12,7 +13,9 @@ export default function Library() {
         <div>Categorias</div>
       </div>
       <div className="p-2 pt-0 flex flex-col gap-1">
-        <div className="p-2">Pesquisar</div>
+        <div className="p-2">
+          <LibrarySearch />
+        </div>
         <div className="flex flex-col">
           <LibraryItem
             pinned

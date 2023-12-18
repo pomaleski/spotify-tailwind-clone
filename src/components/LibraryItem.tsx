@@ -51,7 +51,7 @@ export default function LibraryItem({
             {download && (
               <HiArrowDownCircle className="text-green-500" size={16} />
             )}
-            <span className="text-xs text-zinc-400">
+            <span className="text-xs font-light text-zinc-400">
               {Capitalize(type)}
               {type === 'playlist' && ' · ' + user}
             </span>
