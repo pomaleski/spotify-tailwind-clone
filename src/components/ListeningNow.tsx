@@ -10,11 +10,15 @@ export default function ListeningNow(props: ListeningNowProps) {
         width={64}
         height={64}
         alt="Capa do albúm Whatever People Say I Am, That's What I'm Not"
-        className="rounded-lg"
+        className="rounded-lg cursor-pointer"
       />
       <div className="flex flex-col font-light">
-        <span className="text-sm">Certain Romance</span>
-        <span className="text-xs text-zinc-400">Arctic Monkeys</span>
+        <span className="text-sm cursor-pointer hover:underline">
+          Certain Romance
+        </span>
+        <span className="text-xs text-zinc-400 cursor-pointer hover:underline">
+          Arctic Monkeys
+        </span>
       </div>
       <CheckButton />
     </div>

@@ -43,7 +43,7 @@ export default function LibraryItem({
           alt={alt}
         />
         <div className="flex flex-col justify-center gap-1">
-          <span className="text-sm">
+          <span className={twMerge('text-sm', active && 'text-green-500')}>
             {title.length >= 20 ? title.substring(0, 20).concat('...') : title}
           </span>
           <div className="flex gap-1">
@@ -53,7 +53,7 @@ export default function LibraryItem({
             )}
             <span className="text-xs text-zinc-400">
               {Capitalize(type)}
-              {type === 'playlist' && ' • ' + user}
+              {type === 'playlist' && ' · ' + user}
             </span>
           </div>
         </div>
