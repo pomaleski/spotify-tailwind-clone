@@ -12,7 +12,7 @@ export default function SidebarButton({ children, text }: SideBarButtonProps) {
       className="flex items-center group gap-3 text-sm font-semibold text-zinc-400 hover:text-zinc-100"
     >
       {children}
-      {text}
+      <span className="text-base">{text}</span>
     </a>
   )
 }

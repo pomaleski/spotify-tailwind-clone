@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-1">
         <SideBar.Root>
           <SideBar.Container>
-            <SideBar.Button text="Iníco">
+            <SideBar.Button text="Início">
               <SideBar.Icon icon={GoHome} />
             </SideBar.Button>
             <SideBar.Button text="Buscar">
